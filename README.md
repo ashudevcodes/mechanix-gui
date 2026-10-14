@@ -12,6 +12,12 @@ This repository contains multiple components of Mechanix GUI developed in Rust a
 | Music App    | [mechanix-gui/apps/music](https://github.com/mecha-org/mechanix-gui/tree/pre-release/apps/music)                       |
 | Notes App    | [mechanix-gui/apps/notes](https://github.com/mecha-org/mechanix-gui/tree/pre-release/apps/notes)                       |
 
+## Require dependency
+
+```sh
+sudo apt install libgdk-pixbuf-2.0-0 libpulse0 libxkbcommon0 libxkbcommon-x11-0 libxcb1
+```
+
 ## Repository Structure
 
 - **apps/** - Applications written in Flutter (files, settings, music, notes)
